@@ -43,15 +43,6 @@
 		0 0 500px rgba(0, 255, 0, 1);
 }
 
-.cube-container {
-	position: absolute;
-	left: 0;
-	right: 0;
-	width: 300px;
-	height: 300px;
-	transform-style: inherit;
-}
-
 .cube__side {
 	position: absolute;
 	opacity: 0.8;
