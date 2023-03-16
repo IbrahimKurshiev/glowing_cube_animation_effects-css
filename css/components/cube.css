@@ -21,7 +21,6 @@
 	left: 0;
 	width: 300px;
 	height: 300px;
-	border: 0;
 	background: linear-gradient(#151515, #222);
 	transform: rotateX(90deg) translateZ(150px);
 	box-shadow: 1px 1px 5px #222;
@@ -34,7 +33,7 @@
 	left: 0;
 	width: 300px;
 	height: 300px;
-	background-color: #0f0;
+	background-color: #222;
 	transform: rotateX(90deg) translateZ(-150px);
 	filter: blur(15px);
 	box-shadow: 0 0 120px rgba(0, 255, 0, 0.2),
@@ -55,6 +54,7 @@
 
 .cube__side {
 	position: absolute;
+	opacity: 0.8;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -62,5 +62,4 @@
 	background: linear-gradient(#151515, #00ec00);
 	transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
 	box-shadow: 3px 3px 15px rgba(0, 255, 0, 0.1);
-	border: none;
 }
