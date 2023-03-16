@@ -1,0 +1,5 @@
+/* default */
+@import 'default/default.css';
+
+/* components */
+@import 'components/cube.css';
