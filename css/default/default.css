@@ -10,4 +10,6 @@ body {
 	align-items: center;
 	min-height: 100vh;
 	background-color: #050505;
-}
+	perspective: 1850px;
+	overflow: hidden;
+ }
